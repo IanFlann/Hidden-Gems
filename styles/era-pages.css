@@ -1,0 +1,173 @@
+body{
+   font-family: Verdana;
+   color: white;
+   background: #1986a0;
+   margin: 0px;
+   min-height: 100%;
+   width: 100%;
+}
+
+html {
+   margin: 0px;
+   height: 100%;
+   width: 100%;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #a32f3d;
+  width: 100%;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.active {
+  background-color: #731924;
+  color: black;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 17px;    
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #a32a71;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.topnav a:hover, .dropdown:hover .dropbtn {
+  background-color: #731924;
+  color: white;
+}
+
+.dropdown-content a:hover {
+  background-color: #731924;
+  color: black;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+h1 {
+    color: #610831;
+    text-align: center;
+}
+
+#bio {
+  border-radius: 50px;
+  border-style: solid;
+  background: #a32a71;
+  color: black;
+  margin-left: 375px;
+  margin-right: 375px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-style: solid;
+    border-width: 5px;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 5opx
+    border-color: black;
+    color: black;
+    background: #f0f4f5;
+}
+
+.cover {
+    max-width: 250px;
+}
+
+.image {
+    flex-basis: 40%
+}
+
+.text {
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+#nav2 ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #a32f3d;
+  position: static;
+  bottom: 0;
+  width: 100%;
+}
+
+#nav2 li {
+  float: left;
+}
+
+#nav2 li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+#nav2 li a:hover:not(.active) {
+  background-color: #731924;
+}
+
+.active {
+  background-color: #333;
+}
+
+#active {
+    background-color: #333;
+}
+
+footer {
+  text-align: center;
+  padding: 3px;
+  margin-top: 150px;
+  background-color: palevioletred;
+  color: white;
+}
